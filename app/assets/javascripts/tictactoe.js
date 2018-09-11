@@ -161,7 +161,7 @@ function doTurn(input) {
     turn +=1
         }
   if (turn === 9 && checkWinner() === false){
-    messageCall("Tie game.");
+    setMessage("Tie game.");
      $("#save").click()
     var x = document.getElementsByTagName("td")
     $(x).empty()
