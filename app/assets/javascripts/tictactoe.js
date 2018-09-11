@@ -110,12 +110,12 @@ function updateState(input) {
   if (input.innerHTML === "") {
     input.innerHTML = player();
   } else {
-    messageCall("Choose another square")
+    setMessage("Choose another square")
     turn -= 1
   }
 }
 
-function messageCall(string) {
+function setMessage(string) {
   return document.getElementById("message").innerHTML = string
 }
 
