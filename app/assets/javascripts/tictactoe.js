@@ -144,7 +144,7 @@ function checkWinner() {
       } else {
         winner = "O"
       }
-      messageCall('Player ' + winner + ' Won!')
+      setMessage('Player ' + winner + ' Won!')
       $("#save").click()
           return true }
     } return false
